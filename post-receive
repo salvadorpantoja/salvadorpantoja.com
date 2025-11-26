@@ -1,4 +1,0 @@
-#!/bin/sh
-git --work-tree=$HOME/salvadorpantoja.com --git-dir=$HOME/git/deploy.git checkout -f main
-
-

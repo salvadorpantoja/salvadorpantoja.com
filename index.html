@@ -1,0 +1,590 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salvador Pantoja - Video Lead</title>
+  <link rel="icon" href="/images/favicon.png" type="image/png"> <!-- Favicon not working -->
+  <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+  <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="/index.css">
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JPVNC03ZKV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JPVNC03ZKV');
+</script>
+
+<body class="bg-neutral-900 text-gray-200 antialiased">
+
+  <!-- Header -->
+  <nav class="bg-neutral-800 shadow-lg sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <div class="flex items-center">
+          <a href="#" class="flex-shrink-0 text-white text-xl font-bold hover:text-red-500 transition-colors">
+            Salvador Pantoja
+          </a>
+        </div>
+        <div class="hidden md:block">
+          <div class="ml-10 flex items-baseline space-x-4">
+            <a href="#about" class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:bg-neutral-700 hover:text-white transition-colors">About</a>
+            <a href="#projects" class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:bg-neutral-700 hover:text-white transition-colors">Projects</a>
+            <a href="#experience" class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:bg-neutral-700 hover:text-white transition-colors">Experience</a>
+            <a href="#skills" class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:bg-neutral-700 hover:text-white transition-colors">Skills</a>
+            <a href="#education" class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:bg-neutral-700 hover:text-white transition-colors">Education</a>
+            <a href="#contact" class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:bg-neutral-700 hover:text-white transition-colors">Contact</a>
+          </div>
+        </div>
+        <div class="md:hidden">
+          <button
+            type="button"
+            class="bg-neutral-700 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-neutral-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-neutral-800 focus:ring-white"
+            aria-controls="mobile-menu"
+            aria-expanded="false"
+            id="mobile-menu-button"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg class="block h-6 w-6" id="icon-open" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+            <svg class="hidden h-6 w-6" id="icon-close" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="hidden md:hidden" id="mobile-menu">
+      <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+        <a href="#about" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:bg-neutral-700 hover:text-white transition-colors">About</a>
+        <a href="#projects" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:bg-neutral-700 hover:text-white transition-colors">Projects</a>
+        <a href="#experience" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:bg-neutral-700 hover:text-white transition-colors">Experience</a>
+        <a href="#skills" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:bg-neutral-700 hover:text-white transition-colors">Skills</a>
+        <a href="#education" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:bg-neutral-700 hover:text-white transition-colors">Education</a>
+        <a href="#contact" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:bg-neutral-700 hover:text-white transition-colors">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero Section -->
+    <section 
+      id="hero" 
+      class="relative h-screen flex items-center justify-center text-center bg-cover bg-center"
+      style="background-image: url('images/FIR-Photo.jpg');"
+    >
+      <div class="absolute inset-0 bg-black opacity-70 z-10"></div>
+      <div class="relative z-20 p-4">
+        <h1 class="text-5xl md:text-7xl font-bold text-white mb-4 leading-tight">
+          Salvador Pantoja
+        </h1>
+        <p class="text-2xl md:text-3xl text-red-500 mb-8 font-semibold">
+          Video Production & Operations Lead TEST
+        </p>
+        <p class="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mb-8">
+          Building smarter, faster video workflows with AI and cloud technology.
+        </p>
+        <a 
+          href="#projects" 
+          class="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition duration-300 transform hover:scale-105"
+        >
+          View My Work
+        </a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-neutral-800 text-gray-300">
+      <div class="container mx-auto max-w-6xl">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 md:mb-16 text-red-500">About Me</h2>
+        <p class="text-lg md:text-xl leading-relaxed max-w-3xl mx-auto text-center">As a hands-on director and operations leader, my passion is shaping a creative vision from concept to completion. I build the systems that let those ideas flourish, combining strategic planning with AI and cloud tech to scale teams and manage complex projects ($10k - $100k+). This approach has driven significant growth—like the 1,400% increase in video output I delivered for a key team. For me, operational excellence creates the space for creative innovation to thrive.</p>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-neutral-900 text-gray-300">
+      <div class="container mx-auto max-w-7xl">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 md:mb-16 text-red-500">Selected Projects</h2>
+        
+        <div id="project-carousel-container" class="relative">
+          <!-- Carousel Slides will be injected here by JavaScript -->
+          <div id="project-slides-wrapper" class="relative overflow-hidden min-h-[400px]">
+            <!-- JS generates slides like:
+            <div class="project-slide hidden opacity-0 transition-opacity duration-500 ease-in-out grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 items-stretch p-1">
+              [up to 4 project cards]
+            </div>
+            -->
+          </div>
+
+          <!-- Carousel Navigation -->
+          <button id="prev-project-slide" aria-label="Previous slide" class="absolute top-1/2 left-0 sm:left-1 md:-left-5 transform -translate-y-1/2 bg-neutral-700/60 hover:bg-neutral-600/90 text-white p-2 sm:p-3 rounded-full shadow-lg z-10 transition-colors focus:outline-none focus:ring-2 focus:ring-red-500">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-5 h-5 sm:w-6 sm:h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+            </svg>
+          </button>
+          <button id="next-project-slide" aria-label="Next slide" class="absolute top-1/2 right-0 sm:right-1 md:-right-5 transform -translate-y-1/2 bg-neutral-700/60 hover:bg-neutral-600/90 text-white p-2 sm:p-3 rounded-full shadow-lg z-10 transition-colors focus:outline-none focus:ring-2 focus:ring-red-500">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-5 h-5 sm:w-6 sm:h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+            </svg>
+          </button>
+
+          <!-- Slide Indicators -->
+          <div id="project-slide-indicators" class="absolute bottom-[-20px] left-1/2 transform -translate-x-1/2 flex space-x-2 p-4 z-10">
+            <!-- JS generates indicators like:
+            <button class="indicator w-3 h-3 bg-neutral-600 rounded-full hover:bg-neutral-500"></button>
+            <button class="indicator w-3 h-3 bg-red-500 rounded-full"></button>
+            -->
+          </div>
+        </div>
+
+        <!-- Hidden container for original project cards to be picked up by JS -->
+        <div id="original-project-cards" class="hidden">
+         <!-- Project Card DLA Probono Hunger -->
+          <div class="project-card-item bg-neutral-800 rounded-lg shadow-xl overflow-hidden flex flex-col h-full">
+            <img src="images/dla-probono-hunger.jpg" alt="Pro Bono Hunger Video" class="w-full h-56 object-cover"/> 
+            <!-- Conditional media: Image OR Video -->
+            <div class="p-6 flex flex-col flex-grow">
+              <h3 class="text-xl font-semibold text-red-500 mb-2">DLA Piper Pro Bono: A Commitment to Fighting Hunger</h3>
+              <p class="text-gray-400 text-sm mb-4 flex-grow">Partnering with the DLA Piper Pro Bono team, I directed, wrote, and edited this film to highlight their vital work in the fight against hunger.</p>
+              <div class="mb-4">
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Directing</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Producing</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Scriptwriting</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Editing</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Pro Bono</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">DLA Piper</span>
+              </div>
+              <a href="https://youtu.be/F2P9Oa__6J0" target="_blank" rel="noopener noreferrer" class="mt-auto w-full inline-block bg-red-600 hover:bg-red-700 text-white text-center font-semibold py-2 px-4 rounded-lg transition duration-300">Watch</a>
+            </div>
+          </div>
+
+            
+          <!-- Project Card Case Study Cloud Post -->3
+          <div class="project-card-item bg-neutral-800 rounded-lg shadow-xl overflow-hidden flex flex-col h-full">
+            <img src="images/case-study-post-cloud.jpg" alt="Case Study: Azure Cloud Post-Production" class="w-full h-56 object-cover"/>
+            <div class="p-6 flex flex-col flex-grow">
+              <h3 class="text-xl font-semibold text-red-500 mb-2">Case Study: Cloud-Based Production Workflow</h3>
+              <p class="text-gray-400 text-sm mb-4 flex-grow">I spearheaded the migration of our post-production to the cloud, designing and enabling a fully remote and shared workspace that significantly boosted team efficiency and creative capabilities</p>
+              <div class="mb-4">
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Cloud Migration</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Post-Production</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Workflow Optimization</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Remote Access</span>
+              </div>
+              <a href="" target="_blank" rel="noopener noreferrer" class="mt-auto w-full inline-block bg-orange-600 hover:bg-red-700 text-white text-center font-semibold py-2 px-4 rounded-lg transition duration-300"><!--Read Case Study-->Coming Soon!</a>
+            </div>
+          </div>
+          
+
+          <!-- Project Card DLA Piper AI Chatroom -->
+          <div class="project-card-item bg-neutral-800 rounded-lg shadow-xl overflow-hidden flex flex-col h-full">
+            <img src="images/ai--privacy-fc1thumbnail.jpg" alt="AI Chatroom" class="w-full h-56 object-cover"/>
+            <div class="p-6 flex flex-col flex-grow">
+              <h3 class="text-xl font-semibold text-red-500 mb-2">DLA Piper: The AI Chatroom Series</h3>
+              <p class="text-gray-400 text-sm mb-4 flex-grow">For this conversational video series, I co-produced and sourced the vendor in partnership with DLA Piper. The series explores the transformative power of Artificial Intelligence on today's business landscape.</p>
+              <div class="mb-4">
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Producing</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Vendor Sourcing</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Artificial Intelligence</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">DLA Piper</span>
+              </div>
+              <a href="https://www.dlapiper.com/en-us/resources/ai-chatroom" target="_blank" rel="noopener noreferrer" class="mt-auto w-full inline-block bg-red-600 hover:bg-red-700 text-white text-center font-semibold py-2 px-4 rounded-lg transition duration-300">Watch</a>
+            </div>
+          </div>
+
+          <!-- Project Card DLA PIper Impact -->
+          <div class="project-card-item bg-neutral-800 rounded-lg shadow-xl overflow-hidden flex flex-col h-full">
+            <img src="images/250605-Impact Series-11-Danny Toby-THUMBNAIL-wCG.jpg" alt="AI Chatroom" class="w-full h-56 object-cover"/>
+            <div class="p-6 flex flex-col flex-grow">
+              <h3 class="text-xl font-semibold text-red-500 mb-2">DLA Piper: The Impact Series</h3>
+              <p class="text-gray-400 text-sm mb-4 flex-grow">I co-produced and edited this series in partnership with the DLA Piper Communications team. The videos share powerful stories about the firm's work with their clients and communities.</p>
+              <div class="mb-4">
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Producing</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Camera Operating</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Editing</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">DLA Piper</span>
+              </div>
+              <a href="https://www.dlapiper.com/en/insights/publications/impact-video-series" target="_blank" rel="noopener noreferrer" class="mt-auto w-full inline-block bg-red-600 hover:bg-red-700 text-white text-center font-semibold py-2 px-4 rounded-lg transition duration-300">Watch</a>
+            </div>
+          </div>
+
+          <!-- Project Card BRI -->
+          <div class="project-card-item bg-neutral-800 rounded-lg shadow-xl overflow-hidden flex flex-col h-full">
+            <img src="images/200908-ASPI-WeaponizingBRI-THUMB-768x432.jpg" alt="Afghanistan Social Issues Documentary" class="w-full h-56 object-cover"/>
+            <div class="p-6 flex flex-col flex-grow">
+              <h3 class="text-xl font-semibold text-red-500 mb-2">Asia Society: Weaponizing the Belt and Road</h3>
+              <p class="text-gray-400 text-sm mb-4 flex-grow">I partnered with the Asia Society Policy Institute to co-write, produce, and edit this explainer on the military and geostrategic dimensions of China's Belt and Road Initiative, based on the findings of their new report.</p>
+              <div class="mb-4">
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Directing</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Scriptwriting</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Editing</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Explainer</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">International</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Policy</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Asia Society</span>
+              </div>
+              <a href="https://www.youtube.com/watch?v=PX5PnnnYrFw" target="_blank" rel="noopener noreferrer" class="mt-auto w-full inline-block bg-red-600 hover:bg-red-700 text-white text-center font-semibold py-2 px-4 rounded-lg transition duration-300">Watch</a>
+            </div>
+          </div>
+
+          <!-- Project Card Unknown Tibet -->
+          <div class="project-card-item bg-neutral-800 rounded-lg shadow-xl overflow-hidden flex flex-col h-full">
+            <img src="images/PROJECTS-AsiaSociety-UknownTibet-215x140.jpg" alt="Afghanistan Social Issues Documentary" class="w-full h-56 object-cover"/>
+            <div class="p-6 flex flex-col flex-grow">
+              <h3 class="text-xl font-semibold text-red-500 mb-2">Asia Society Museum: 'Unknown Tibet' Exhibition Preview </h3>
+              <p class="text-gray-400 text-sm mb-4 flex-grow">I wrote, animated, and edited this video for the Asia Society Museum to promote their 'Unknown Tibet' exhibition. The piece was featured on the front page of the New York Times website.</p>
+              <div class="mb-4">
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Directing</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Scriptwriting</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Editing</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Explainer</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">International</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Arts</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Asia Society</span>
+              </div>
+              <a href="https://www.youtube.com/watch?v=TucRv_2ik-Y" target="_blank" rel="noopener noreferrer" class="mt-auto w-full inline-block bg-red-600 hover:bg-red-700 text-white text-center font-semibold py-2 px-4 rounded-lg transition duration-300">Watch</a>
+            </div>
+          </div>
+
+
+          <!-- Project Card No Limit Zao Wou Ki -->
+          <div class="project-card-item bg-neutral-800 rounded-lg shadow-xl overflow-hidden flex flex-col h-full">
+            <img src="images/nolimitszaowouoki.jpg" alt="Afghanistan Social Issues Documentary" class="w-full h-56 object-cover"/>
+            <div class="p-6 flex flex-col flex-grow">
+              <h3 class="text-xl font-semibold text-red-500 mb-2">Asia Society Museum: 'No Limits' Exhibition Film</h3>
+              <p class="text-gray-400 text-sm mb-4 flex-grow">I worked with the Asia Society Museum to produce this video about the 'No Limits: Zao Wou-Ki' exhibition.</p>
+              <div class="mb-4">
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Directing</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Producing</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Camera Operating</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Editing</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Arts</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Asia Society</span>
+              </div>
+              <a href="https://www.youtube.com/watch?v=VDzwdcxEnAc" target="_blank" rel="noopener noreferrer" class="mt-auto w-full inline-block bg-red-600 hover:bg-red-700 text-white text-center font-semibold py-2 px-4 rounded-lg transition duration-300">Watch</a>
+            </div>
+          </div>
+          
+
+          <!-- Project Card Coconut -->
+          <div class="project-card-item bg-neutral-800 rounded-lg shadow-xl overflow-hidden flex flex-col h-full">
+            <img src="images/coconut.jpg" alt="Coconut - The Dog Who Inspired Millions" class="w-full h-56 object-cover"/> 
+            <!-- Conditional media: Image OR Video -->
+            <div class="p-6 flex flex-col flex-grow">
+              <h3 class="text-xl font-semibold text-red-500 mb-2">ASPCA: Coconut, the Viral Puppy</h3>
+              <p class="text-gray-400 text-sm mb-4 flex-grow">I directed and edited this viral video about Coconut the puppy, which attracted over 1 million YouTube views in four months and was later adapted into a national TV commercial for the ASPCA.</p>
+              <div class="mb-4">
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Directing</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Scriptwriting</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Editing</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Viral Video</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Fundraising</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">ASPCA</span>
+              </div>
+              <a href="https://www.youtube.com/watch?v=y5FTgBdlD84" target="_blank" rel="noopener noreferrer" class="mt-auto w-full inline-block bg-red-600 hover:bg-red-700 text-white text-center font-semibold py-2 px-4 rounded-lg transition duration-300">Watch</a>
+            </div>
+          </div>
+
+        <!-- Project Card Dog Fighting -->
+          <div class="project-card-item bg-neutral-800 rounded-lg shadow-xl overflow-hidden flex flex-col h-full">
+            <img src="images/dogfighting-aspca1.jpg" alt="Coconut - The Dog Who Inspired Millions" class="w-full h-56 object-cover"/> 
+            <!-- Conditional media: Image OR Video -->
+            <div class="p-6 flex flex-col flex-grow">
+              <h3 class="text-xl font-semibold text-red-500 mb-2">ASPCA: A Second Chance</h3>
+              <p class="text-gray-400 text-sm mb-4 flex-grow">I produced, directed, co-filmed, and edited this short documentary for the ASPCA. The film chronicles the Bronx Dog Fighting Raid — July 2012, following the rescued dogs from the day of the raid to their journey toward recovery and adoption.</p>
+              <div class="mb-4">
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Directing</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Camera Operating</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Scriptwriting</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Editing</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Fundraising</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">ASPCA</span>
+              </div>
+              <a href="https://www.youtube.com/watch?v=SVs1-Zi_30Y" target="_blank" rel="noopener noreferrer" class="mt-auto w-full inline-block bg-red-600 hover:bg-red-700 text-white text-center font-semibold py-2 px-4 rounded-lg transition duration-300">Watch</a>
+            </div>
+          </div>
+
+          <!-- Project Card Dog Fighting TV Commercial -->
+          <div class="project-card-item bg-neutral-800 rounded-lg shadow-xl overflow-hidden flex flex-col h-full">
+            <img src="images/dog-fighting-aspca-commercial.jpg" alt="Coconut - The Dog Who Inspired Millions" class="w-full h-56 object-cover"/> 
+            <!-- Conditional media: Image OR Video -->
+            <div class="p-6 flex flex-col flex-grow">
+              <h3 class="text-xl font-semibold text-red-500 mb-2">ASPCA: National Fundraising Commercial</h3>
+              <p class="text-gray-400 text-sm mb-4 flex-grow">I co-produced this national TV commercial for the ASPCA's fight against dog fighting. My concept involved a candid interview with CEO Matt Bershadker, capturing the organization's authentic passion and commitment to ending animal cruelty.</p>
+              <div class="mb-4">
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Directing</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Scriptwriting</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Editing</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Fundraising</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">ASPCA</span>
+              </div>
+              <a href="https://youtu.be/NZDnPAXwLUY" target="_blank" rel="noopener noreferrer" class="mt-auto w-full inline-block bg-red-600 hover:bg-red-700 text-white text-center font-semibold py-2 px-4 rounded-lg transition duration-300">Watch</a>
+            </div>
+          </div>
+        
+          <!-- Project Card 1
+          <div class="project-card-item bg-neutral-800 rounded-lg shadow-xl overflow-hidden flex flex-col h-full">
+            <img src="https://picsum.photos/seed/youtubeasia/600/400" alt="Strategy: 1300% YouTube Audience Growth" class="w-full h-56 object-cover"/>
+            <div class="p-6 flex flex-col flex-grow">
+              <h3 class="text-xl font-semibold text-red-500 mb-2">Strategy: 1300% YouTube Audience Growth</h3>
+              <p class="text-gray-400 text-sm mb-4 flex-grow">Led Asia Society's global video department, achieving over 1,300% video audience growth and earning a YouTube Silver Creator Award through strategic content and operational standards.</p>
+              <div class="mb-4">
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">YouTube Strategy</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Audience Growth</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Analytics</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Operational Excellence</span>
+              </div>
+              <a href="templates/blog-template.html" target="_blank" rel="noopener noreferrer" class="mt-auto w-full inline-block bg-orange-600 hover:bg-red-700 text-white text-center font-semibold py-2 px-4 rounded-lg transition duration-300">Learn More</a>
+            </div>
+          </div>
+
+          -->
+          
+        
+         
+          
+             <!-- Project Card 2 -->
+          <div class="project-card-item bg-neutral-800 rounded-lg shadow-xl overflow-hidden flex flex-col h-full">
+            <img src="images/PROJECTS-Youth-LINKS-TV1-215x140.jpg" alt="Afghanistan Social Issues Documentary" class="w-full h-56 object-cover"/>
+            <div class="p-6 flex flex-col flex-grow">
+              <h3 class="text-xl font-semibold text-red-500 mb-2">TOLO-TV: U.S. & Afghanistan Documentary Series</h3>
+              <p class="text-gray-400 text-sm mb-4 flex-grow">I directed a six-person crew for this $18,000 documentary series on social issues in the U.S. and Afghanistan. The series was produced for and aired on Afghanistan's TOLO-TV.</p>
+              <div class="mb-4">
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Directing</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Producing</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">International</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Social Issues</span>
+                <span class="inline-block bg-neutral-700 rounded-full px-3 py-1 text-xs font-semibold text-gray-300 mr-2 mb-2">Global Nomads Group</span>
+              </div>
+              <a href="https://www.youtube.com/playlist?list=PLJo_lhg1LV0C5Mi2KXR1u-ilmNtNhuG5T" target="_blank" rel="noopener noreferrer" class="mt-auto w-full inline-block bg-red-600 hover:bg-red-700 text-white text-center font-semibold py-2 px-4 rounded-lg transition duration-300">Watch</a>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-neutral-800 text-gray-300">
+      <div class="container mx-auto max-w-6xl">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 md:mb-16 text-red-500">Experience</h2>
+        <!-- Experience 1 -->
+        <div class="mb-8 p-6 bg-neutral-900 rounded-lg shadow-xl">
+          <h3 class="text-xl font-semibold text-red-500">Video Production Manager</h3>
+          <p class="text-md text-gray-400 font-medium">DLA Piper | New York City – Full-time</p>
+          <p class="text-sm text-gray-500 mb-3">05.2022-Present</p>
+          <ul class="list-disc list-inside text-gray-300 space-y-1 pl-2">
+            <li>Led all video production, serving as the primary creative partner and account manager for firm video projects.</li>
+            <li>Managed and mentored a national team of two video coordinators, overseeing all project delegation and development.</li>
+            <li>Drove a 1,413% increase in content output by overhauling the team's production workflows and management systems.</li>
+            <li>Spearheaded migration to the cloud, enabling a fully remote and shared post-production workspace.</li>
+            <li>Recipient of the 2025 Firmwide Pro Bono Award for leading video storytelling projects for community-focused pro bono initiatives.</li>
+          </ul>
+        </div>
+        <!-- Experience 2 -->
+        <div class="mb-8 p-6 bg-neutral-900 rounded-lg shadow-xl">
+          <h3 class="text-xl font-semibold text-red-500">Associate Director of Video Production</h3>
+          <p class="text-md text-gray-400 font-medium">Asia Society | New York City – Full-time</p>
+          <p class="text-sm text-gray-500 mb-3">06.2016-05.2022</p>
+          <ul class="list-disc list-inside text-gray-300 space-y-1 pl-2">
+            <li>Led the global video department, increasing the video audience by over 1,300% and earning a Silver Creator Award from YouTube.</li>
+            <li>Established operational standards across 13 global centers, managing all departmental functions, including staff, budget, and analytics.</li>
+            <li>Automated YouTube upload processes and analytics reporting using the YouTube Data API and Python.</li>
+          </ul>
+        </div>
+        <!-- Experience 3 -->
+        <div class="mb-8 p-6 bg-neutral-900 rounded-lg shadow-xl">
+          <h3 class="text-xl font-semibold text-red-500">Video Production Manager</h3>
+          <p class="text-md text-gray-400 font-medium">ASPCA | New York City – Full-time</p>
+          <p class="text-sm text-gray-500 mb-3">07.2012-06.2016</p>
+          <ul class="list-disc list-inside text-gray-300 space-y-1 pl-2">
+            <li>Produced, directed, and edited short-format advocacy documentaries, direct response TV commercials, PSAs, and internal communications videos.</li>
+            <li>Co-produced and filmed a nationally televised fundraising commercial that aired over 5,000 times and generated over 4,000 donors.</li>
+            <li>Directed and edited a viral video of Coconut the dog, earning 1M+ YouTube views in under four months.</li>
+          </ul>
+        </div>
+        <!-- Experience 4 -->
+        <div class="mb-8 p-6 bg-neutral-900 rounded-lg shadow-xl">
+          <h3 class="text-xl font-semibold text-red-500">Production Manager</h3>
+          <p class="text-md text-gray-400 font-medium">Global Nomads Group | New York City – Full-time</p>
+          <p class="text-sm text-gray-500 mb-3">04.2010-07.2012</p>
+          <ul class="list-disc list-inside text-gray-300 space-y-1 pl-2">
+            <li>Led global content production, directing on-site and remotely crews in high-stakes environments (post-earthquake Haiti, the Middle East, Congo).</li>
+            <li>Directed a six-person crew for a U.S. Department of State-funded documentary series on social issues that aired on Afghanistan's TOLO-TV (2012).</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-neutral-900 text-gray-300">
+      <div class="container mx-auto max-w-6xl">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 md:mb-16 text-red-500">Skills</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Skill Category 1 -->
+          <div class="bg-neutral-800 p-6 rounded-lg shadow-xl">
+            <h3 class="text-xl font-semibold text-red-500 mb-4">Strategy & Leadership</h3>
+            <ul class="space-y-2">
+              <li class="flex items-center"><svg class="w-4 h-4 text-red-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>Project & Budget Oversight</li>
+              <li class="flex items-center"><svg class="w-4 h-4 text-red-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>Audience Growth & Engagement</li>
+              <li class="flex items-center"><svg class="w-4 h-4 text-red-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>Team Leadership</li>
+               <li class="flex items-center"><svg class="w-4 h-4 text-red-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>Stakeholder Communication</li>
+            </ul>
+          </div>
+          <!-- Skill Category 2 -->
+          <div class="bg-neutral-800 p-6 rounded-lg shadow-xl">
+            <h3 class="text-xl font-semibold text-red-500 mb-4">Multimedia Software</h3>
+            <ul class="space-y-2">
+              <li class="flex items-center"><svg class="w-4 h-4 text-red-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>Adobe Premiere Pro</li>
+              <li class="flex items-center"><svg class="w-4 h-4 text-red-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>After Effects</li>
+              <li class="flex items-center"><svg class="w-4 h-4 text-red-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>Photoshop</li>
+              <li class="flex items-center"><svg class="w-4 h-4 text-red-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>Lightroom</li>
+              <li class="flex items-center"><svg class="w-4 h-4 text-red-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>Frame.io</li>
+              <li class="flex items-center"><svg class="w-4 h-4 text-red-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>iZotope RX</li>
+            </ul>
+          </div>
+          <!-- Skill Category 3 -->
+          <div class="bg-neutral-800 p-6 rounded-lg shadow-xl">
+            <h3 class="text-xl font-semibold text-red-500 mb-4">Multimedia Production Equipment</h3>
+            <ul class="space-y-2">
+              <li class="flex items-center"><svg class="w-4 h-4 text-red-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>RED, Canon, and Sony cinema cameras</li>
+              <li class="flex items-center"><svg class="w-4 h-4 text-red-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>Advanced field and studio lighting and sound</li>
+              <li class="flex items-center"><svg class="w-4 h-4 text-red-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>DJI Drones, GoPros, and gimbals</li>
+            </ul>
+          </div>
+          <!-- Skill Category 4 -->
+          <div class="bg-neutral-800 p-6 rounded-lg shadow-xl">
+            <h3 class="text-xl font-semibold text-red-500 mb-4">Social Media and Analytics</h3>
+            <ul class="space-y-2">
+              <li class="flex items-center"><svg class="w-4 h-4 text-red-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>YouTube Partner Program (Silver Creator Award)</li>
+              <li class="flex items-center"><svg class="w-4 h-4 text-red-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>Webcasting (Restream, OBS, multiplatform)</li>
+              <li class="flex items-center"><svg class="w-4 h-4 text-red-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>Google Analytics, SEO, YouTube Data API</li>
+            </ul>
+          </div>
+          <!-- Skill Category 5 -->
+          <div class="bg-neutral-800 p-6 rounded-lg shadow-xl">
+            <h3 class="text-xl font-semibold text-red-500 mb-4">Computer and Web Development</h3>
+            <ul class="space-y-2">
+              <li class="flex items-center"><svg class="w-4 h-4 text-red-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>HTML, CSS, and JavaScript</li>
+              <li class="flex items-center"><svg class="w-4 h-4 text-red-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>WordPress implementation and beginner Python automation</li>
+              <li class="flex items-center"><svg class="w-4 h-4 text-red-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>Basic IT networking, Raspberry Pi tinkering</li>
+            </ul>
+          </div>
+          <!-- Skill Category 6 -->
+          <div class="bg-neutral-800 p-6 rounded-lg shadow-xl">
+            <h3 class="text-xl font-semibold text-red-500 mb-4">AI & Cloud Technologies</h3>
+            <ul class="space-y-2">
+              <li class="flex items-center"><svg class="w-4 h-4 text-red-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>ChatGPT, Gemini, Microsoft Copilot</li>
+              <li class="flex items-center"><svg class="w-4 h-4 text-red-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>Veo, Flow, Runway</li>
+              <li class="flex items-center"><svg class="w-4 h-4 text-red-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>Elevenlabs, Topaz AI</li>
+              <li class="flex items-center"><svg class="w-4 h-4 text-red-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>AWS & Azure Familiarity</li>
+
+            </ul>
+          </div>
+        </div>
+      </div>  
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-neutral-800 text-gray-300">
+      <div class="container mx-auto max-w-6xl">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 md:mb-16 text-red-500">Education</h2>
+        <div class="max-w-2xl mx-auto">
+          <!-- Education 1 -->
+          <div class="mb-6 p-6 bg-neutral-900 rounded-lg shadow-xl">
+            <h3 class="text-xl font-semibold text-red-500">Bachelor of Arts in Journalism and Sociology</h3>
+            <p class="text-md text-gray-400">City University of New York</p>
+            <p class="text-sm text-gray-500">New York, NY</p>
+          </div>
+          <!-- Education 2 -->
+          <div class="mb-6 p-6 bg-neutral-900 rounded-lg shadow-xl">
+            <h3 class="text-xl font-semibold text-red-500">Associate of Science in Film and Video Production</h3>
+            <p class="text-md text-gray-400">Full Sail University</p>
+            <p class="text-sm text-gray-500">Orlando, FL</p>
+          </div>
+          <!-- Education 3 -->
+          <div class="mb-6 p-6 bg-neutral-900 rounded-lg shadow-xl">
+            <h3 class="text-xl font-semibold text-red-500">Video Storytelling Ninja Certificate<h3>
+            <p class="text-md text-gray-400">National Press Photographers Association Multimedia Immersion Workshop</p>
+            <p class="text-sm text-gray-500">Syracuse, NY</p>
+          </div>
+               <div class="mb-6 p-6 bg-neutral-900 rounded-lg shadow-xl">
+            <h3 class="text-xl font-semibold text-red-500">Responsive Web Design Certificate</h3>
+            <p class="text-md text-gray-400">freeCodeCamp</p>
+          </div>
+          <!-- Education 4 -->
+          <div class="mb-6 p-6 bg-neutral-900 rounded-lg shadow-xl">
+            <h3 class="text-xl font-semibold text-red-500">JavaScript Algorithms and Data Structures Certificate</h3>
+            <p class="text-md text-gray-400">freeCodeCamp</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-neutral-900 text-gray-300">
+      <div class="container mx-auto max-w-6xl">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 md:mb-16 text-red-500">Get In Touch</h2>
+        <div class="max-w-lg mx-auto bg-neutral-800 p-8 rounded-lg shadow-xl">
+          <p class="text-lg mb-6 text-center">Feel free to reach out for collaborations or inquiries.</p>
+          <form id="contact-form" class="space-y-6">
+            <div>
+              <label for="name" class="block text-sm font-medium text-gray-300 mb-1">Full Name</label>
+              <input type="text" name="name" id="name" required
+                     class="w-full px-4 py-2 bg-neutral-700 border border-neutral-600 rounded-md shadow-sm focus:ring-red-500 focus:border-red-500 text-gray-200 placeholder-gray-500"
+                     placeholder="Your Name">
+            </div>
+            <div>
+              <label for="email" class="block text-sm font-medium text-gray-300 mb-1">Email Address</label>
+              <input type="email" name="email" id="email" required
+                     class="w-full px-4 py-2 bg-neutral-700 border border-neutral-600 rounded-md shadow-sm focus:ring-red-500 focus:border-red-500 text-gray-200 placeholder-gray-500"
+                     placeholder="you@example.com">
+            </div>
+            <div>
+              <label for="subject" class="block text-sm font-medium text-gray-300 mb-1">Subject</label>
+              <input type="text" name="subject" id="subject" required
+                     class="w-full px-4 py-2 bg-neutral-700 border border-neutral-600 rounded-md shadow-sm focus:ring-red-500 focus:border-red-500 text-gray-200 placeholder-gray-500"
+                     placeholder="Regarding your work">
+            </div>
+            <div>
+              <label for="message" class="block text-sm font-medium text-gray-300 mb-1">Message</label>
+              <textarea name="message" id="message" rows="4" required
+                        class="w-full px-4 py-2 bg-neutral-700 border border-neutral-600 rounded-md shadow-sm focus:ring-red-500 focus:border-red-500 text-gray-200 placeholder-gray-500"
+                        placeholder="Your message..."></textarea>
+            </div>
+            <div>
+              <button type="submit"
+                      class="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-lg text-md transition duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-neutral-800 focus:ring-red-500">
+                Send Message
+              </button>
+            </div>
+          </form>
+          <p id="form-submission-status" class="mt-4 text-center text-sm text-gray-400"></p>
+           <div class="mt-8 text-center border-t border-neutral-700 pt-6">
+             <p class="text-sm text-gray-500">Alternatively, you can contact me directly on <a href="https://www.linkedin.com/in/salvador-pantoja-120b1b27" target="_blank" rel="noopener noreferrer" class="hover:underline hover:text-red-400">LinkedIn</a></p></p>
+           </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-neutral-800 text-gray-400 py-8 text-center">
+    <div class="container mx-auto px-4">
+      <p class="mb-2" id="footer-copyright">
+        &copy; 2025 Salvador Pantoja. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>

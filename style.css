@@ -1,0 +1,49 @@
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+/* Simple scrollbar styling (optional, for aesthetics) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #262626; /* neutral-800 or a slightly darker variant */
+}
+::-webkit-scrollbar-thumb {
+  background: #525252; /* neutral-600 */
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #737373; /* neutral-500 */
+}
+body {
+  opacity: 1; /* Keep body visible, no fade-in JS needed for static version */
+}
+.aspect-w-16 { --tw-aspect-w: 16; }
+.aspect-h-9 { --tw-aspect-h: 9; }
+.aspect-video > * {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+.aspect-video {
+    position: relative;
+    padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
+}
+
+/* Styles for Project Carousel Slides */
+.project-slide {
+  /* Tailwind classes 'hidden opacity-0 transition-opacity duration-500 ease-in-out grid ...' handle most of this */
+  /* This class is mainly for structure if not fully handled by Tailwind in JS */
+  /* 'items-stretch' on the slide grid and 'flex flex-col' on cards help equalize heights */
+}
+
+/* Ensure active slide is displayed as grid if 'hidden' class (display:none) is removed */
+.project-slide:not(.hidden) {
+  display: grid; 
+}

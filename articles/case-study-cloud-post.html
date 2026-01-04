@@ -72,7 +72,7 @@
 
   <main class="py-12 md:py-16 px-4 sm:px-6 lg:px-8">
     <div class="container mx-auto max-w-4xl bg-neutral-800 p-6 sm:p-8 md:p-10 rounded-lg shadow-xl">
-      <h1 class="text-3xl md:text-4xl font-bold text-red-500 mb-2">Case Study: My Video Team's Strategic Move to Cloud Post-Production on Azure</h1>
+      <h1 class="text-3xl md:text-4xl font-bold text-red-500 mb-2">Case Study: Leading My Team's Strategic Move to Cloud Post-Production on Azure</h1>
       <p class="text-sm text-gray-500 mb-6">Published on: <time datetime="2025-07-25">July 25, 2025</time></p>
       
       <!-- PHOTO HEADER  -->
@@ -82,16 +82,28 @@
 </figure>
       </figure>
 
+      <!-- SUMMARY -->
+
       <section class="mb-6">
         <h2 class="text-2xl font-semibold text-red-400 mb-3">Summary</h2>
-        <p class="text-gray-300 leading-relaxed">My video team faced mounting challenges with its on-premises post-production infrastructure, which hindered collaboration, limited scalability, and posed data management complexities. To address these issues, I architected and implemented a comprehensive, cloud-native post-production environment on Microsoft Azure. The solution centralized the entire workflow, from archiving to 4K editing and motion design, within Azure's secure ecosystem. Despite initial challenges related to network constraints and workflow adaptation, the new pipeline has unlocked unprecedented collaborative capabilities, enhanced data security, and provided a scalable foundation for future growth. The project successfully transitioned my team to a flexible, resilient, and forward-thinking operational model.</p>
+        <p class="text-gray-300 leading-relaxed">My video team faced mounting challenges with its on-premises post-production infrastructure, which hindered collaboration, limited scalability, and posed data management complexities. To address these issues, I architected the solution and partnered with our IT department to implement a comprehensive, cloud-native post-production environment on Microsoft Azure. The solution centralized the entire workflow, from archiving to 4K editing and motion design, within Azure's secure ecosystem. Despite initial challenges related to network constraints and workflow adaptation, the new pipeline has unlocked unprecedented collaborative capabilities, enhanced data security, and provided a scalable foundation for future growth. The project successfully transitioned my team to a flexible, resilient, and forward-thinking operational model.</p>
       </section>
 
+
+      <!-- MY ROLE -->
+      <section class="mb-6">
+        <h2 class="text-2xl font-semibold text-red-400 mb-3">My Role: Project Manager & Solution Architect</h2>
+        <p class="text-gray-300 leading-relaxed">As the lead for this initiative, I was responsible for the project from conception to final adoption. My key contributions included:</p>
+        <ul class="list-disc list-inside text-gray-300 space-y-1 mt-3 pl-4">
+          <li style="text-indent: -1.5em; padding-left: 1.5em;"><strong>Vision & Architecture:</strong> I identified the need for a cloud-based workflow and designed the complete high-level solution, including the tiered storage strategy, virtual workstation requirements, and the secure connectivity model.</li>
+            <li style="text-indent: -1.5em; padding-left: 1.5em;"><strong>Project Management:</strong> I served as the primary project manager, defining the technical requirements for our IT department and overseeing their implementation to ensure the final build met the creative team's functional and performance standards.</li>
+            <li style="text-indent: -1.5em; padding-left: 1.5em;"><strong>Workflow Integration & Training:</strong> I designed the new proxy-based workflow and personally led all training and documentation efforts to ensure my team could successfully transition and thrive in the new environment.</li>
+           </ul>
 
       <!-- THE CHALLENGE -->
       <section class="mb-6">
         <h2 class="text-2xl font-semibold text-red-400 mb-3">The Challenge: Breaking Down On-Premises Silos</h2>
-        <p class="text-gray-300 leading-relaxed">Before migrating to the cloud, our post-production workflow was tethered to physical workstations and portable hard-drives. This model presented several key obstacles:</p>
+        <p class="text-gray-300 leading-relaxed">Before migrating to the cloud, the team's post-production workflow was tethered to physical workstations and portable hard-drives. This model presented several key obstacles:</p>
         <ul class="list-disc list-inside text-gray-300 space-y-1 mt-3 pl-4">
           <li style="text-indent: -1.5em; padding-left: 1.5em;"><strong>Collaboration Friction:</strong> Sharing large project files between editors and motion designers was slow and inefficient, often relying on transferring media between physical drives or navigating slow internal network shares.</li>
             <li style="text-indent: -1.5em; padding-left: 1.5em;"><strong>Lack of Flexibility:</strong> Team members needed to have physically access to the portable media source where the project existed to work. This became a significant bottleneck to business continuity when the team was traveling for work or working remotely.</li>
@@ -111,9 +123,9 @@
       <!-- THE SOLUTION -->
       <section class="mb-6">
         <h2 class="text-2xl font-semibold text-red-400 mb-3">The Solution: A Unified Post-Production Hub in Azure</h2>
-        <p class="text-gray-300 leading-relaxed">My vision was to create a single, high-performance environment where all media, projects, and creative tools lived together. We chose Microsoft Azure for its robust infrastructure offerings, security posture, and enterprise-level support.</p>
+        <p class="text-gray-300 leading-relaxed">My vision was to create a single, high-performance environment that could operate within our company's existing infrastructure. Our organization is standardized on Microsoft Azure, so I architected a solution that leveraged its most powerful services to meet the unique demands of a professional video workflow. </p>
         <ol class="list-decimal list-outside text-gray-300 space-y-1 mt-3 pl-6">
-            <li style="text-indent: ; padding-left: .5em;"><strong>High-Performance Compute</strong> We deployed a pool of GPU-accelerated virtual machines, specifically chosen for their balance of processing power and graphics capabilities. These compute instances are critical for accelerating video rendering and providing a smooth user experience in demanding creative applications. Each virtual machine was equipped with high-speed solid-state drives to ensure fast boot and application load times.</li>
+            <li style="text-indent: ; padding-left: .5em;"><strong>High-Performance Compute</strong> Working from my architectural design, our IT team deployed a pool of GPU-accelerated virtual machines, specifically chosen for their balance of processing power and graphics capabilities. These compute instances are critical for accelerating video rendering and providing a smooth user experience in demanding creative applications. Each virtual machine was equipped with high-speed solid-state drives to ensure fast boot and application load times.</li>
             <li style="text-indent: ; padding-left: .5em;"><strong>Centralized, Tiered Storage for Performance and Archiving:</strong>
               The cornerstone of our collaborative workflow is a two-tiered cloud storage strategy.
               <!-- Hanging indent sublist -->
@@ -121,7 +133,7 @@
               <li style="text-indent: 0em; padding-left: 0em;">
                 <strong>Active Project Storage:</strong> A tier of 'hot' high-performance, low-latency storage acts as a central, shared drive for all virtual workstations. All active 4K source media, proxy files, and project files reside here, making them instantly accessible for editing.
               <li style="text-indent: 0em; padding-left: 0em;">
-                <strong>Permanent Archival Storage:</strong>                 <strong>Active Project Storage:</strong> A tier of 'hot' high-performance, low-latency storage acts as a central, shared drive for all virtual workstations. All active 4K source media, proxy files, and project files reside here, making them instantly accessible for editing.
+                <strong>Permanent Archival Storage:</strong> For long-term retention and initial data ingest, we implemented a 'cold' storage solution. This provides a virtually limitless, cost-effective storage pool for all raw footage and completed projects. The workflow is simple: new footage is uploaded to the archive, then moved to the 'hot' storage for active work. Once a project is complete, it is moved back for secure, permanent archiving.
 
               </li>
     </ul>
@@ -142,13 +154,13 @@
       <!-- IMPLEMENTAIONT -->
       <section class="mb-6">
         <h2 class="text-2xl font-semibold text-red-400 mb-3">Implementation & Overcoming Hurdles</h2>
-        <p class="text-gray-300 leading-relaxed">The transition to a completely new infrastructure and workflow was not without its challenges. My team addressed them methodically:</p>
+        <p class="text-gray-300 leading-relaxed">The transition to a completely new infrastructure and workflow was not without its challenges. As project lead, I worked with both my creative team and our IT partners to address them methodically:</p>
         <ul class="list-disc list-inside text-gray-300 space-y-1 mt-3 pl-4">
         <li style="text-indent: -1.5em; padding-left: 1.5em;">
           <strong>Challenge 1: Optimizing Network Performance:</strong>
           <ul class="list-disc list-inside pl-6 mt-1 space-y-1">
             <li class="text-gray-300"><strong>Issue:</strong> Our corporate security requirements necessitate routing all traffic through secure channels. A key challenge was configuring this environment to ensure a fluid, high-resolution media stream for my editors without compromising our security posture.</li>
-            <li class="text-gray-300"><strong>Mitigation:</strong> We worked closely with our IT security team to fine-tune network configurations and establish best practices for users.</li>
+            <li class="text-gray-300"><strong>Mitigation:</strong> I collaborated closely with our IT security team to test solutions and define best practices for my editors.</li>
           </ul>
         </li>
 

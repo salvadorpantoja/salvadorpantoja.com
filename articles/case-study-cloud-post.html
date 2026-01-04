@@ -78,7 +78,7 @@
       <!-- PHOTO HEADER  -->
        <figure>
       <img src="/images/case-study-post-cloud-800x400.jpg" alt="Case Study Image" class="w-full h-auto rounded-lg shadow-md mb- object-cover">
-      <figcaption class="mt-1 mb-5 text-sm text-gray-500">Image generated with ChatGPT (DALL·E) — OpenAI, July 2025</figcaption>
+      <figcaption class="mt-1 mb-5 text-sm text-gray-500"></figcaption>
 </figure>
       </figure>
 
@@ -99,6 +99,7 @@
             <li style="text-indent: -1.5em; padding-left: 1.5em;"><strong>Project Management:</strong> I served as the primary project manager, defining the technical requirements for our IT department and overseeing their implementation to ensure the final build met the creative team's functional and performance standards.</li>
             <li style="text-indent: -1.5em; padding-left: 1.5em;"><strong>Workflow Integration & Training:</strong> I designed the new proxy-based workflow and personally led all training and documentation efforts to ensure my team could successfully transition and thrive in the new environment.</li>
            </ul>
+            </section>
 
       <!-- THE CHALLENGE -->
       <section class="mb-6">
@@ -125,7 +126,7 @@
         <h2 class="text-2xl font-semibold text-red-400 mb-3">The Solution: A Unified Post-Production Hub in Azure</h2>
         <p class="text-gray-300 leading-relaxed">My vision was to create a single, high-performance environment that could operate within our company's existing infrastructure. Our organization is standardized on Microsoft Azure, so I architected a solution that leveraged its most powerful services to meet the unique demands of a professional video workflow. </p>
         <ol class="list-decimal list-outside text-gray-300 space-y-1 mt-3 pl-6">
-            <li style="text-indent: ; padding-left: .5em;"><strong>High-Performance Compute</strong> Working from my architectural design, our IT team deployed a pool of GPU-accelerated virtual machines, specifically chosen for their balance of processing power and graphics capabilities. These compute instances are critical for accelerating video rendering and providing a smooth user experience in demanding creative applications. Each virtual machine was equipped with high-speed solid-state drives to ensure fast boot and application load times.</li>
+            <li style="text-indent: ; padding-left: .5em;"><strong>High-Performance Compute:</strong> Working from my architectural design, our IT team deployed a pool of GPU-accelerated virtual machines, specifically chosen for their balance of processing power and graphics capabilities. These compute instances are critical for accelerating video rendering and providing a smooth user experience in demanding creative applications. Each virtual machine was equipped with high-speed solid-state drives to ensure fast boot and application load times.</li>
             <li style="text-indent: ; padding-left: .5em;"><strong>Centralized, Tiered Storage for Performance and Archiving:</strong>
               The cornerstone of our collaborative workflow is a two-tiered cloud storage strategy.
               <!-- Hanging indent sublist -->
@@ -133,7 +134,7 @@
               <li style="text-indent: 0em; padding-left: 0em;">
                 <strong>Active Project Storage:</strong> A tier of 'hot' high-performance, low-latency storage acts as a central, shared drive for all virtual workstations. All active 4K source media, proxy files, and project files reside here, making them instantly accessible for editing.
               <li style="text-indent: 0em; padding-left: 0em;">
-                <strong>Permanent Archival Storage:</strong> For long-term retention and initial data ingest, we implemented a 'cold' storage solution. This provides a virtually limitless, cost-effective storage pool for all raw footage and completed projects. The workflow is simple: new footage is uploaded to the archive, then moved to the 'hot' storage for active work. Once a project is complete, it is moved back for secure, permanent archiving.
+                <strong>Permanent Archival Storage:</strong> For long-term retention, the architecture includes a 'cold' storage solution. This provides a virtually limitless, cost-effective storage pool for all raw footage and completed projects.
 
               </li>
     </ul>
@@ -147,11 +148,11 @@
       <!-- PHOTO CLOUD DIAGRAM -->
        <figure>
       <img src="/images/cloud-post-architecture-v3.jpg" alt="cloud post architecture diagram" class="w-full h-auto rounded-lg shadow-md mb-0 object-cover">
-       <figcaption class="mt-1 mb-5 text-sm text-gray-500">Figure: Remote Post-Production Workflow Architecture</figcaption>
+       <figcaption class="mt-1 mb-5 text-sm text-gray-500">Figure 1: Remote Post-Production Workflow Architecture</figcaption>
 </figure>
 
 
-      <!-- IMPLEMENTAIONT -->
+      <!-- IMPLEMENTATION -->
       <section class="mb-6">
         <h2 class="text-2xl font-semibold text-red-400 mb-3">Implementation & Overcoming Hurdles</h2>
         <p class="text-gray-300 leading-relaxed">The transition to a completely new infrastructure and workflow was not without its challenges. As project lead, I worked with both my creative team and our IT partners to address them methodically:</p>
@@ -175,29 +176,30 @@
         <li style="text-indent: -1.5em; padding-left: 1.5em;">
           <strong>Challenge 3: Optimizing Performance for 4K Footage</strong>
           <ul class="list-disc list-inside pl-6 mt-1 space-y-1">
-            <li class="text-gray-300"><strong>Issue:</strong> We discovered that editing native 4K MXF files directly on the VMs, while possible, did not provide the seamless, real-time experience my editors required. The I/O and decoding demands were intensive.</li>
-            <li class="text-gray-300"><strong>Solution:</strong> We pivoted to a proxy-based workflow, a standard industry best practice. We use AVD instances to generate low-resolution proxy files from the 4K source material stored on the Premium Storage. Editors then use these lightweight proxies for a fluid, real-time editing experience. For final color grading and export, the system seamlessly links back to the high-resolution 4K source files. This optimization dramatically improved performance and user satisfaction.</li>
+            <li class="text-gray-300"><strong>Issue:</strong> I identified that editing native 4K MXF files directly on the virtual machines, while possible, did not provide the seamless, real-time experience my editors required.</li>
+            <li class="text-gray-300"><strong>Solution:</strong> I implemented a proxy-based workflow, a standard industry best practice. The system I designed uses the virtual workstations to generate low-resolution proxy files from the 4K source material stored on the high-performance storage. Editors then use these lightweight proxies for a fluid, real-time editing experience.</li>
           </ul>
         </li>
       </ul>
       </section>
 
   
- <!-- PHOTO HEADER  -->
+ <!-- RESULTS  -->
  <figure>      
  <img src="/images/multi-user-cloud-design.jpg" alt="Case Study Image" class="w-full h-auto rounded-lg shadow-md mb-0 object-cover">
-  <figcaption class="mt-1 mb-5 text-sm text-gray-500">Video team connected via HQ Display Protocal to Azure's GPU Accelerated Workstations running Adobe Premiere Pro.</figcaption>
+  <figcaption class="mt-1 mb-5 text-sm text-gray-500">Figure 2: The cloud-native architecture connecting our remote creative team to centralized tools and data.
+</figcaption>
  </figure>
 
       <section class="mb-6">
         <h2 class="text-2xl font-semibold text-red-400 mb-3">Results & Key Benefits</h2>
         <p class="text-gray-300 leading-relaxed">Despite the initial hurdles, the Azure cloud pipeline has delivered transformative results:</p>
           <ul class="list-disc list-inside text-gray-300 space-y-1 mt-3 pl-4">
-          <li style="text-indent: -1.5em; padding-left: 1.5em;"><strong>Unprecedented Collaboration:</strong> Project handoffs are now instantaneous. For example, when a lead editor was out sick, I was able to log into an available AVD instance, open their exact Premiere Pro project from the shared storage, and continue their work within minutes. This level of agility was previously impossible.</li>
+          <li style="text-indent: -1.5em; padding-left: 1.5em;"><strong>Unprecedented Collaboration:</strong> Project handoffs are now instantaneous. For example, when a lead editor was out sick, I was able to log into an available virtual workstation, open their exact Premiere Pro project from the shared storage, and continue their work within minutes.</li>
            
             <li style="text-indent: -1.5em; padding-left: 1.5em;"><strong>Enhanced Security and Centralized Control:</strong> All company assets and project data remain within our secure Azure environment. Media is never downloaded to local machines, drastically reducing the risk of data leaks and providing a clear chain of custody for all intellectual property.</li>
             
-            <li style="text-indent: -1.5em; padding-left: 1.5em;"><strong>Operational Agility:</strong> We can now scale our resources on demand. If we need more editing stations for a large project, we can provision new AVD instances far more quickly and cost-effectively than purchasing and setting up physical hardware.</li>
+            <li style="text-indent: -1.5em; padding-left: 1.5em;"><strong>Operational Agility:</strong> We can now scale our resources on demand. If we need more editing stations for a large project, we can provision new virtual workstations far more quickly and cost-effectively than purchasing and setting up physical hardware.</li>
            
             <li style="text-indent: -1.5em; padding-left: 1.5em;"><strong>Cost as a Strategic Investment:</strong> While the monthly operational expenditure (OpEx) is a consideration, the company views it as a worthwhile investment. The cost is offset by the elimination of capital expenditure (CapEx) on hardware, reduced IT management overhead, and the immense value derived from superior security and collaborative efficiency.</li>
           </ul>
